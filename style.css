@@ -148,7 +148,7 @@ body {
 article {
   flex: 1;
   min-width: 0;
-  max-width: 80ch;
+  max-width: 39rem;
   padding: 2rem 0 4rem;
 }
 
