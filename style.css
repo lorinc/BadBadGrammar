@@ -148,6 +148,7 @@ body {
 article {
   flex: 1;
   min-width: 0;
+  max-width: 80ch;
   padding: 2rem 0 4rem;
 }
 
@@ -200,7 +201,7 @@ article strong {
 /* ── Lead / abstract ───────────────────────────────────────────────────────── */
 .lead {
   font-size: 1.0625rem;
-  color: var(--muted-foreground);
+  color: var(--foreground);
   border-left: 3px solid var(--border);
   padding-left: 1.25rem;
   margin-bottom: 2rem;
