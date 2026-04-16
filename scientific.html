@@ -359,7 +359,7 @@
 <script>
   // ── TOC active-state via IntersectionObserver ──────────────────────────────
   (function () {
-    const headings = document.querySelectorAll('article h2[id], article h3[id]');
+    const headings = document.querySelectorAll('article section[id]');
     const tocLinks  = document.querySelectorAll('.toc a');
 
     if (!headings.length || !tocLinks.length) return;
