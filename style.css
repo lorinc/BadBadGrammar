@@ -371,19 +371,19 @@ article li {
   font-size: 0.75rem;
   font-weight: 600;
   padding: 0.375rem 0.875rem;
-  background: var(--card);
-  border: 1.5px solid var(--border);
+  background: var(--action-green);
+  border: 1.5px solid var(--action-green);
   border-radius: 9999px;
-  color: var(--primary);
+  color: #fff;
   text-decoration: none;
   display: block;
   text-align: center;
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.15s, border-color 0.15s;
 }
 
 .version-toggle a:hover {
-  background: var(--secondary);
-  border-color: var(--primary);
+  background: #2a7a3d;
+  border-color: #2a7a3d;
 }
 
 /* ── Alignment table ───────────────────────────────────────────────────────── */
