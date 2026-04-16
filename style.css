@@ -387,6 +387,17 @@ article li {
   border-color: #2a7a3d;
 }
 
+.version-toggle a.chat-btn {
+  margin-top: 0.5rem;
+  background: #e07428;
+  border-color: #e07428;
+}
+
+.version-toggle a.chat-btn:hover {
+  background: #c4641f;
+  border-color: #c4641f;
+}
+
 /* ── Alignment table ───────────────────────────────────────────────────────── */
 .alignment-table {
   width: 100%;
