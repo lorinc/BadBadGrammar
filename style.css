@@ -31,12 +31,17 @@ body {
 
 /* ── Site header ───────────────────────────────────────────────────────────── */
 .site-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 1rem 2.5rem calc(220px + 3rem + 1rem); /* align with article column */
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 2rem;
-  padding: 3rem 2rem 2.5rem;
-  border-bottom: 1px solid var(--border);
 }
 
 .site-header img {
@@ -306,6 +311,10 @@ article strong {
     display: none;
   }
 
+  .site-header-inner {
+    padding-left: 1rem;
+  }
+
   article {
     padding: 1.5rem 1rem 3rem;
   }
@@ -421,4 +430,4 @@ article li {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.site-header { animation: fade-in 0.4s ease both; }
+.site-header-inner { animation: fade-in 0.4s ease both; }
