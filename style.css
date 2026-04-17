@@ -37,7 +37,19 @@ body {
 .site-header-inner {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 3rem 1rem 2.5rem; /* aligns with TOC left edge */
+  padding: 3rem 1rem 2.5rem;
+  display: flex;
+  gap: 3rem; /* matches .page-body gap */
+}
+
+.site-header-spacer {
+  width: 220px; /* matches .toc width */
+  flex-shrink: 0;
+}
+
+.site-header-content {
+  flex: 1;
+  max-width: 39rem; /* matches article max-width */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -308,6 +320,10 @@ article strong {
   }
 
   .toc {
+    display: none;
+  }
+
+  .site-header-spacer {
     display: none;
   }
 
