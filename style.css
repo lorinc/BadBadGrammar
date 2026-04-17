@@ -31,53 +31,33 @@ body {
 
 /* ── Site header ───────────────────────────────────────────────────────────── */
 .site-header {
-  border-bottom: 1px solid var(--border);
-}
-
-.site-header-inner {
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 3rem 1rem 2.5rem;
-  display: flex;
-  gap: 3rem; /* matches .page-body gap */
-}
-
-.site-header-spacer {
-  width: 220px; /* matches .toc width */
-  flex-shrink: 0;
-}
-
-.site-header-content {
-  flex: 1;
-  max-width: 39rem; /* matches article max-width */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
+  padding: 2.5rem 0 1.5rem;
+  animation: fade-in 0.4s ease both;
 }
 
 .site-header img {
   width: 120px;
   height: auto;
-  flex-shrink: 0;
+  display: block;
 }
 
-.site-header-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+/* ── Article heading (h1 + subtitle live in the article column) ─────────────── */
+.article-heading {
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
 }
 
-.site-header h1 {
+.article-heading h1 {
   font-family: 'DM Serif Display', Georgia, serif;
   font-size: clamp(1.6rem, 4vw, 2.4rem);
   font-weight: 400;
   line-height: 1.2;
-  margin: 0;
+  margin: 0 0 0.75rem;
   color: var(--foreground);
 }
 
-.site-header .subtitle {
+.article-heading .subtitle {
   margin: 0;
   font-size: 1.1875rem;
   font-style: italic;
@@ -94,13 +74,16 @@ body {
   align-items: flex-start;
 }
 
+.left-col {
+  width: 220px;
+  flex-shrink: 0;
+}
+
 /* ── TOC ───────────────────────────────────────────────────────────────────── */
 .toc {
   position: sticky;
   top: 2rem;
-  width: 220px;
-  flex-shrink: 0;
-  padding: 2rem 0;
+  padding: 0;
 }
 
 .toc-title {
@@ -319,11 +302,7 @@ article strong {
     padding: 0;
   }
 
-  .toc {
-    display: none;
-  }
-
-  .site-header-spacer {
+  .left-col {
     display: none;
   }
 
@@ -442,4 +421,3 @@ article li {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.site-header-inner { animation: fade-in 0.4s ease both; }
