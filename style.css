@@ -360,6 +360,16 @@ article li {
   border-color: #c4641f;
 }
 
+.version-toggle a.spanish-btn {
+  background: #9b2335;
+  border-color: #9b2335;
+}
+
+.version-toggle a.spanish-btn:hover {
+  background: #7a1b28;
+  border-color: #7a1b28;
+}
+
 /* ── Alignment table ───────────────────────────────────────────────────────── */
 .alignment-table {
   width: 100%;
