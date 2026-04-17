@@ -37,7 +37,7 @@ body {
 .site-header-inner {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 3rem 1rem 2.5rem calc(220px + 3rem + 1rem); /* align with article column */
+  padding: 3rem 1rem 2.5rem; /* aligns with TOC left edge */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -309,10 +309,6 @@ article strong {
 
   .toc {
     display: none;
-  }
-
-  .site-header-inner {
-    padding-left: 1rem;
   }
 
   article {
