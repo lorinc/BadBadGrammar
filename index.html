@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f0e8">
-  <title>Your Students Are Learning. Just Not to Speak. — Imagine Montessori School</title>
-  <meta name="description" content="What neurolinguistics reveals about where grammar instruction routes language knowledge — and why it can't produce fluency.">
+  <title>El sistema cerebral equivocado — Imagine Montessori School</title>
+  <meta name="description" content="Lo que la neurolingüística revela sobre por qué la enseñanza gramatical no produce fluidez y qué funciona en su lugar.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
@@ -17,439 +17,329 @@
 
   <!-- cell 1: buttons, anchored down -->
   <div class="left-top">
-    <a href="research_es.html" class="version-btn spanish-btn">🇪🇸 Versión en español</a>
-    <a href="scientific.html" class="version-btn">Scientific version</a>
-    <a href="https://notebooklm.google.com/notebook/dc840c37-bfcf-4f83-8d60-6bcddbcb2706" class="version-btn chat-btn" target="_blank">Chat with this article</a>
+    <a href="english.html" class="version-btn">🇬🇧 English version</a>
+    <a href="https://notebooklm.google.com/notebook/dc840c37-bfcf-4f83-8d60-6bcddbcb2706" class="version-btn chat-btn" target="_blank">Hablar con este artículo</a>
   </div>
 
   <!-- cell 2: title + subtitle -->
   <div class="article-heading">
-    <h1>Your Students Are Learning. Just Not to Speak.</h1>
-    <p class="subtitle">What neurolinguistics reveals about where grammar instruction routes language knowledge — and why it can't produce fluency</p>
+    <h1>El sistema cerebral equivocado: por qué la instrucción gramatical no genera fluidez</h1>
+    <p class="subtitle">Lo que la neurolingüística, la ciencia cognitiva y la investigación de aula revelan sobre cómo se adquiere una lengua de verdad</p>
   </div>
 
   <!-- cell 3: sticky TOC -->
-  <nav class="toc" aria-label="Table of contents">
-    <p class="toc-title">Contents</p>
+  <nav class="toc" aria-label="Tabla de contenidos">
+    <p class="toc-title">Contenido</p>
     <ul>
-      <li class="toc-part"><a href="#at-a-glance">At a Glance</a></li>
+      <li class="toc-part"><a href="#intro">Resumen</a></li>
 
-      <li class="toc-part"><a href="#part-1">Part 1 — Why grammar fails</a></li>
-      <li class="toc-sub"><a href="#brain-systems">Two brain systems</a></li>
-      <li class="toc-sub"><a href="#learned-vs-acquired">"Learned" vs acquired</a></li>
-      <li class="toc-sub"><a href="#same-scores">Same scores, different brains</a></li>
-      <li class="toc-sub"><a href="#anxiety">The anxiety trap</a></li>
-      <li class="toc-sub"><a href="#measurement">Measurement illusion</a></li>
-      <li class="toc-sub"><a href="#dutch-study">Six-year Dutch study</a></li>
-      <li class="toc-sub"><a href="#fossilization">Fossilisation</a></li>
+      <li class="toc-part"><a href="#parte-1">Parte I — Por qué fracasa la gramática</a></li>
+      <li class="toc-sub"><a href="#dos-sistemas">Dos sistemas cerebrales</a></li>
+      <li class="toc-sub"><a href="#morgan-short">Los experimentos de Morgan-Short</a></li>
+      <li class="toc-sub"><a href="#krashen">El marco de Krashen</a></li>
+      <li class="toc-sub"><a href="#metaanalisis">Metaanálisis mal interpretados</a></li>
+      <li class="toc-sub"><a href="#ansiedad">Corrección y ansiedad</a></li>
+      <li class="toc-sub"><a href="#fosilizacion">Fosilización</a></li>
+      <li class="toc-sub"><a href="#estudios-nl">Estudios longitudinales neerlandeses</a></li>
 
-      <li class="toc-part"><a href="#part-2">Part 2 — What actually works</a></li>
-      <li class="toc-sub"><a href="#comprehensible-input">Comprehensible input</a></li>
-      <li class="toc-sub"><a href="#tprs">TPRS: stories as curriculum</a></li>
-      <li class="toc-sub"><a href="#extensive-reading">Extensive reading</a></li>
-      <li class="toc-sub"><a href="#immersion">Immersion programs</a></li>
-      <li class="toc-sub"><a href="#spain">Spain's situation</a></li>
+      <li class="toc-part"><a href="#parte-2">Parte II — Qué sí funciona</a></li>
+      <li class="toc-sub"><a href="#input-comprensible">Input comprensible</a></li>
+      <li class="toc-sub"><a href="#input-cautivador">Input cautivador</a></li>
+      <li class="toc-sub"><a href="#tprs">TPRS: historias como currículo</a></li>
+      <li class="toc-sub"><a href="#lectura-extensiva">Lectura extensiva</a></li>
+      <li class="toc-sub"><a href="#inversion">Inmersión a gran escala</a></li>
 
-      <li class="toc-part"><a href="#part-3">Part 3 — Practical guide</a></li>
-      <li class="toc-sub"><a href="#montessori-fit">Montessori fit</a></li>
-      <li class="toc-sub"><a href="#phase-1">Phase 1: Library</a></li>
-      <li class="toc-sub"><a href="#phase-2">Phase 2: Training</a></li>
-      <li class="toc-sub"><a href="#phase-3">Phase 3: Classroom</a></li>
-      <li class="toc-sub"><a href="#phase-4">Phase 4: Assessment</a></li>
-      <li class="toc-sub"><a href="#real-schools">Real schools</a></li>
-      <li class="toc-sub"><a href="#what-to-expect">What to expect</a></li>
-      <li class="toc-sub"><a href="#timeline">Timeline</a></li>
+      <li class="toc-part"><a href="#parte-3">Parte III — Contexto español y europeo</a></li>
+      <li class="toc-sub"><a href="#espana">El problema del inglés en España</a></li>
+      <li class="toc-sub"><a href="#clil">AICLE en España</a></li>
+      <li class="toc-sub"><a href="#politica-europea">La política europea</a></li>
 
-      <li class="toc-part"><a href="#short-version">The short version</a></li>
-      <li><a href="#references">Key references</a></li>
+      <li class="toc-part"><a href="#parte-4">Parte IV — Montessori y la adquisición</a></li>
+      <li class="toc-sub"><a href="#afinidad">Afinidad filosófica</a></li>
+
+      <li class="toc-part"><a href="#conclusion">Conclusión</a></li>
     </ul>
   </nav>
 
   <!-- cell 4: article -->
   <article>
 
-    <!-- At a Glance -->
-    <section id="at-a-glance">
-      <h2>At a Glance</h2>
-
+    <!-- Resumen -->
+    <section id="intro">
+      <h2>Resumen</h2>
       <div class="pull-quote">
-        <p><strong>The core finding:</strong> When we teach a language through grammar rules and vocabulary lists, the brain stores that knowledge in a completely different system than the one it uses for actual speaking. It's like learning the rules of swimming from a textbook but never getting in the pool — except worse, because the "textbook knowledge" can actually get in the way when you finally do jump in.</p>
+        <p><strong>La enseñanza tradicional centrada en la gramática canaliza el conocimiento lingüístico hacia el sistema cerebral equivocado: uno que resulta incapaz de producir habla fluida.</strong> Cuatro décadas de evidencia convergente —procedente de la neurolingüística, la ciencia cognitiva y la investigación en el aula— demuestran que enseñar gramática de forma explícita construye representaciones en la memoria declarativa (saber <em>sobre</em> la lengua) en lugar de la competencia procedimental (usar la lengua de manera automática) que sustenta toda comunicación fluida.</p>
       </div>
-
       <div class="pull-quote">
-        <p><strong>The problem isn't just inefficiency — it's misdirection.</strong> Brain imaging studies show that students taught grammar rules process language through their <em>declarative memory</em> (the system for facts and dates), while fluent speakers use <em>procedural memory</em> (the system for riding a bike or playing piano). These are physically different brain circuits. And the research is clear: one does not become the other through practice. A student who memorises verb conjugation tables is not on the path to fluent speech — they're on a different path entirely.</p>
-      </div>
-
-      <div class="pull-quote">
-        <p><strong>What does work?</strong> The same thing that works for every child learning their first language: lots of meaningful, understandable input. Stories. Conversations. Reading. When students absorb language through compelling content they actually care about, their brains build the right neural pathways automatically — the ones that enable real-time, fluent communication.</p>
-      </div>
-
-      <div class="pull-quote">
-        <p><strong>This isn't a fringe theory.</strong> It's supported by neurolinguistic research (Paradis, 2009; Ullman, 2016), brain imaging experiments (Morgan-Short et al., 2012), six-year longitudinal studies in European schools (Rousse-Malpat et al., 2024), gold-standard randomised trials of immersion programs (Steele et al., 2017), and 30+ comparative studies of story-based teaching methods (Lichtman, 2019). The convergence across disciplines is remarkable.</p>
-      </div>
-
-      <div class="pull-quote">
-        <p><strong>For a Montessori school, this is especially relevant.</strong> Acquisition-based language teaching aligns perfectly with Montessori principles: the prepared environment, following the child, intrinsic motivation, learning through engagement rather than instruction. Adopting these methods isn't adding something foreign to our pedagogy — it's removing the one area where we're contradicting it.</p>
-      </div>
-
-      <div class="pull-quote">
-        <blockquote><strong>This document covers three things:</strong> (1) the evidence that traditional grammar instruction doesn't just underperform but actively builds the wrong brain pathways; (2) the evidence for what works instead, with real classroom results; and (3) a practical guide for how schools have successfully made the transition.</blockquote>
+        <p>Los métodos basados en la adquisición, anclados en el input comprensible, producen resultados iguales o superiores en estudios controlados, con ventajas especialmente claras en fluidez, retención a largo plazo y motivación del alumnado. Este informe recoge la evidencia fundacional y reciente en ambos ámbitos, con especial atención al contexto europeo y español y a la afinidad con los principios pedagógicos Montessori.</p>
       </div>
     </section>
 
-    <!-- Part 1 -->
-    <section id="part-1">
-      <h2 class="part-heading">Part 1</h2>
-      <h2>Why Grammar-First Teaching Backfires</h2>
+    <!-- Parte I -->
+    <section id="parte-1">
+      <h2 class="part-heading">Parte I</h2>
+      <h2>Por qué la enseñanza centrada en la gramática no se sostiene</h2>
 
-      <section id="brain-systems">
-        <h3>Your brain has two filing systems for language</h3>
-        <p>Here's something most of us never learned in teacher training: the brain doesn't have one language system. It has two, and they work very differently.</p>
-        <p><strong>Procedural memory</strong> is the system that handles skills you do automatically — riding a bike, tying your shoes, playing a practiced piece of music. For native speakers, grammar lives here. You don't think about subject-verb agreement when you speak your first language; you just <em>know</em> what sounds right. This system lives in brain structures called the basal ganglia and parts of the left hemisphere.</p>
-        <p><strong>Declarative memory</strong> is the system for facts and conscious knowledge — the capital of France, the year you graduated, the rule for when to use the subjunctive. It's centred in the hippocampus and medial temporal lobe.</p>
-        <p>When we teach grammar rules, the brain files that knowledge in the declarative system. When we acquire language naturally — by understanding messages in context — it goes into the procedural system. This isn't a theoretical distinction. Neurolinguist Michel Paradis (2004, 2009) demonstrated it through decades of studying bilingual patients with brain injuries:</p>
+      <section id="dos-sistemas">
+        <h3>Dos sistemas cerebrales, dos tipos de conocimiento: solo uno produce habla</h3>
+        <p>El argumento científico más contundente contra la enseñanza gramatical como vía hacia la fluidez proviene de la neurolingüística. Michel Paradis (2004, 2009), a partir de más de veinticinco años de datos sobre afasia bilingüe, neuroimagen y patología neurológica, demostró que <strong>la competencia lingüística implícita y el conocimiento metalingüístico explícito se almacenan en sistemas cerebrales radicalmente distintos</strong>. La competencia implícita —la que permite hablar con fluidez y automatismo— depende de la memoria procedimental, sostenida por los ganglios basales, el cerebelo y el córtex perisilviano izquierdo. El conocimiento gramatical explícito —el que produce la instrucción en el aula— depende de la memoria declarativa, ligada al hipocampo y a los lóbulos temporales mediales.</p>
         <div class="pull-quote">
-          <blockquote>Patients with damage to declarative memory (amnesia) kept their ability to speak fluently. Patients with damage to procedural circuits (aphasia) lost their speech but could still recite grammar rules. The two systems are physically separate.</blockquote>
+          <blockquote>«El conocimiento metalingüístico nunca llega a convertirse en competencia implícita, ni a la inversa.»<cite>— Paradis, 2004, 2009</cite></blockquote>
         </div>
-        <p>Michael Ullman's Declarative/Procedural Model (2001, 2016) mapped this in detail, and a 2019 neuroimaging meta-analysis by Tagarelli and colleagues confirmed it directly: when people learn grammar through rules, their medial temporal lobe lights up (declarative memory); when they pick it up through immersion-like exposure, the basal ganglia activate (procedural memory). <strong>The type of teaching literally determines which brain system gets recruited.</strong></p>
+        <p>Los dos sistemas aparecen doblemente disociados en la patología cerebral. Los pacientes con amnesia (memoria declarativa dañada) conservan intacta su competencia lingüística implícita. Los pacientes con afasia (circuitos procedimentales del lenguaje afectados) pierden la producción oral pero mantienen el conocimiento gramatical explícito. En el Parkinson se degrada la gramática procedimental; en el Alzhéimer se pierde primero el conocimiento declarativo.</p>
+        <p>El Modelo Declarativo/Procedimental (MDP) de Michael Ullman (2001, 2004, 2016) amplía este marco con una cartografía neurocognitiva precisa. En los hablantes nativos, el procesamiento gramatical depende de los circuitos de la memoria procedimental (área de Broca/AB 44, núcleo caudado, putamen). En los aprendices de L2 instruidos explícitamente, la gramática se procesa inicialmente a través de la memoria declarativa: un sustrato computacional fundamentalmente distinto.</p>
+        <p>Un metaanálisis de neuroimagen de referencia realizado por Tagarelli, Shattuck, Turkeltaub y Ullman (2019, <em>NeuroImage</em>) lo confirmó de forma directa: <strong>el aprendizaje gramatical con instrucción explícita activó regiones del lóbulo temporal medial (declarativas), mientras que el aprendizaje sin instrucción explícita activó los ganglios basales (procedimentales)</strong>. El tipo de enseñanza determina, literalmente, qué sistema cerebral se pone en marcha.</p>
+        <p>¿Puede el conocimiento gramatical declarativo «convertirse» con el tiempo en competencia procedimental? Hamrick, Lum y Ullman (2018, <em>PNAS</em>) llevaron a cabo varios metaanálisis que muestran cómo la gramática de la L2 se asocia únicamente con la memoria declarativa en niveles bajos de experiencia, y únicamente con la memoria procedimental en niveles altos. El cambio ocurre, en efecto, pero a través del uso comunicativo sostenido, no de más ejercicios de gramática. Paradis (2009) aclara que no se trata de una conversión, sino de una <em>sustitución</em>: la competencia implícita se adquiere de forma separada e incidental mediante el uso comunicativo, y su empleo va desplazando gradualmente la dependencia del conocimiento explícito. <strong>La instrucción gramatical no puede acelerar este proceso porque alimenta al sistema equivocado.</strong></p>
+        <p>Para la etapa escolar (Infantil, Primaria, Secundaria), esta evidencia resulta especialmente decisiva. Los metaanálisis de neuroimagen sobre representación bilingüe confirman que niños y adolescentes mantienen un acceso sólido a la memoria procedimental para aprender lenguas. Insistir con gramática explícita en estas edades desvía la adquisición hacia el sistema declarativo precisamente cuando el sistema procedimental está más disponible, desaprovechando una ventana evolutiva que se estrecha con la edad.</p>
       </section>
 
-      <section id="learned-vs-acquired">
-        <h3>Can "learned" become "acquired"?</h3>
-        <p>This is what everyone asks: "Okay, but surely with enough practice, the grammar rules eventually become automatic?"</p>
-        <p>The neuroscience says: not in the way you'd hope. What happens isn't that declarative knowledge "converts" into procedural skill. Instead, through lots of communicative experience, the brain separately and gradually builds procedural competence alongside the existing declarative knowledge. As Paradis puts it, implicit competence is "separately and incidentally acquired through communicative use" and its use eventually replaces reliance on rules.</p>
-        <p>Hamrick, Lum, and Ullman (2018), in <em>PNAS</em>, confirmed this: at lower levels, second-language grammar was associated only with declarative memory; at higher levels, only with procedural memory. But the shift happened through accumulated communicative experience — not through grammar drills. <strong>Grammar instruction feeds the wrong system. More of it doesn't fix the problem; it deepens it.</strong></p>
+      <section id="morgan-short">
+        <h3>Los experimentos de Morgan-Short: mismas notas, cerebros radicalmente distintos</h3>
+        <p>La evidencia experimental más directa proviene de los trabajos de Kara Morgan-Short y colaboradores (2012, <em>Journal of Cognitive Neuroscience</em>). Un grupo de adultos aprendió una lengua artificial bajo dos condiciones: <strong>entrenamiento explícito</strong> (con reglas gramaticales explicadas, al modo de la instrucción tradicional) o <strong>entrenamiento implícito</strong> (tipo inmersión, sin reglas). En niveles altos de dominio, ambos grupos rendían igual en las pruebas conductuales. Pero los registros cerebrales (ERP) contaban otra historia muy distinta.</p>
+        <div class="pull-quote">
+          <blockquote><strong>Solo el grupo con entrenamiento implícito mostró la firma cerebral completa propia de los hablantes nativos</strong>: una negatividad anterior seguida de un P600, el patrón característico del procesamiento sintáctico automático. El grupo con entrenamiento explícito mostró una <em>positividad</em> anterior seguida de P600, patrón que refleja dependencia de mecanismos atencionales de propósito general, no del procesamiento sintáctico nativo.<cite>— Morgan-Short et al. (2012)</cite></blockquote>
+        </div>
+        <p>Un estudio de retención posterior (Morgan-Short, Finger, Grey y Ullman, 2012, <em>PLoS ONE</em>) encontró que, tras meses sin exposición, el grupo implícito <em>seguía</em> procesando de manera más parecida a un nativo que el grupo explícito. El tipo de entrenamiento deja huellas neurales duraderas.</p>
+        <p>Evidencia complementaria de Bowden, Steinhauer, Sanz y Ullman (2013, <em>Neuropsychologia</em>) mostró que los universitarios que aprendían español como L2 alcanzaban respuestas cerebrales similares a las de los nativos, pero solo quienes habían tenido experiencia de inmersión más allá del aula. Williams (2020, <em>Language Learning</em>), revisando la neurociencia del aprendizaje implícito, confirma una relación competitiva entre los sistemas declarativo y procedimental, en línea con la predicción de que <strong>la instrucción gramatical explícita puede inhibir activamente el aprendizaje procedimental</strong>.</p>
       </section>
 
-      <section id="same-scores">
-        <h3>Same test scores, radically different brains</h3>
-        <p>The most striking evidence comes from a 2012 experiment by Kara Morgan-Short and colleagues at Georgetown, published in the <em>Journal of Cognitive Neuroscience</em>.</p>
-        <p>Two groups of adults learned an artificial language. One group got explicit grammar rules (like a traditional classroom). The other got immersion-like exposure (no rules, just meaningful practice). After enough training, <strong>both groups scored equally well on grammar tests.</strong> If you only looked at the test scores, you'd conclude both methods work.</p>
-        <p>But when researchers recorded their brain activity, the picture was completely different. Only the immersion group showed the brain signature of native-like language processing — the specific neural pattern that indicates automatic, fluent grammatical processing. The grammar-rules group showed a different pattern entirely, reflecting effortful, controlled processing — the brain working harder to achieve the same result.</p>
-        <p>Even more telling: in a follow-up months later, with no practice in between, the immersion group <em>still</em> showed more native-like processing. The grammar group hadn't caught up. The training method had created lasting differences in how the brain handled language.</p>
+      <section id="krashen">
+        <h3>El marco de Krashen: fundamentos teóricos validados por la neurociencia</h3>
+        <p>El Modelo del Monitor de Stephen Krashen (1981, 1982, 1985) se adelantó en dos décadas a estos hallazgos neurolingüísticos. Su <strong>Distinción Adquisición-Aprendizaje</strong> sostiene que la lengua «adquirida» (subconsciente, centrada en el significado) y la lengua «aprendida» (reglas gramaticales conscientes) son sistemas esencialmente separados. Su <strong>Hipótesis del Monitor</strong> precisa que el conocimiento aprendido solo puede funcionar como un editor posterior a la producción: entra en juego cuando el hablante conoce la regla, dispone de tiempo para aplicarla y está centrado en la corrección.</p>
+        <p>Krashen identificó a los «usuarios excesivos del monitor» —habitualmente alumnos perfeccionistas formados en aulas saturadas de gramática— que «producen despacio, de forma inadecuada pero correcta», porque sus reglas aprendidas interfieren con la salida fluida.</p>
+        <p>Aunque las teorías de Krashen fueron criticadas en su día por falta de falsabilidad (McLaughlin, 1987; Gregg, 1984), la evidencia neurolingüística de Paradis, Ullman y Morgan-Short ofrece hoy una validación neurobiológica independiente de su distinción central. El sistema de «adquisición» se corresponde con la memoria procedimental; el de «aprendizaje», con la declarativa.</p>
+        <div class="pull-quote">
+          <blockquote>«Partiendo de la premisa de que el conocimiento metalingüístico no puede transformarse en competencia implícita, no puede existir interfaz alguna entre ambos.»<cite>— Paradis, 2009</cite></blockquote>
+        </div>
+        <p>Incluso los investigadores que sostienen la llamada «interfaz débil» —como Rod Ellis (2005, 2006) y Nick Ellis (2005, 2011)— no afirman que la enseñanza gramatical construya directamente la competencia comunicativa. <strong>Ningún investigador actual de la adquisición de segundas lenguas sostiene que la instrucción tradicional de gramática-traducción genere por sí misma competencia comunicativa.</strong></p>
       </section>
 
-      <section id="anxiety">
-        <h3>The anxiety trap</h3>
-        <p>Grammar-focused teaching doesn't just route knowledge to the wrong brain system. It also creates emotional conditions that actively block acquisition.</p>
-        <p>Horwitz, Horwitz, and Cope (1986) identified Foreign Language Anxiety as a distinct phenomenon with three components: fear of speaking, test anxiety, and fear of being corrected. MacIntyre and Gardner (1994) showed this anxiety disrupts language processing at every stage — input, processing, and output. Gregersen and Horwitz (2002) found that anxious students believed the goal of language class was "avoiding mistakes," while confident students were "eager to talk without concern about making errors."</p>
-        <p>Grammar classrooms — with their emphasis on correctness, red-pen corrections, and getting-the-rule-right — systematically produce the first kind of student. Krashen calls this the <strong>Affective Filter</strong>: when anxiety goes up, the brain's ability to absorb new language goes down, regardless of how good the input is.</p>
-        <p>John Truscott (1996, 2007) took this further. His meta-analysis found a small <em>negative</em> effect (d = –0.155) for grammar correction in writing: corrected students performed marginally worse than uncorrected ones. He identified the mechanism: students don't learn from corrections — they learn to avoid complexity. They write simpler sentences to dodge errors, which looks like improvement but is actually a retreat from growth.</p>
+      <section id="metaanalisis">
+        <h3>Los metaanálisis, mal interpretados: el sesgo de medida oculta la verdad</h3>
+        <p>La defensa de la enseñanza explícita de la gramática suele apoyarse en metaanálisis, en particular el de Norris y Ortega (2000, <em>Language Learning</em>), que sintetizó 49 estudios y encontró efectos grandes a favor de la instrucción explícita. Los propios autores, sin embargo, reconocieron una limitación crítica: <strong>la inmensa mayoría de las medidas de resultado evaluaban conocimiento explícito en pruebas gramaticales limitadas, no capacidad comunicativa</strong>.</p>
+        <p>Spada (2014) admitió lo mismo: «Las pruebas representadas en los experimentos examinados evaluaban el conocimiento explícito, no el conocimiento implícito que habitualmente se considera responsable de la comunicación».</p>
+        <p>A esto se suma la brevedad extrema de la mayoría de los estudios: <strong>el 21 % se completó en un solo día y el 74 % duró dos semanas o menos</strong> (Norris y Ortega, 2000). Estos diseños favorecen de entrada a la instrucción explícita, que produce avances rápidos en pruebas controladas pero no necesariamente capacidad comunicativa duradera.</p>
+        <p>Un metaanálisis más reciente y decisivo, el de <strong>Kang, Sok y Han (2019, <em>Language Teaching Research</em>)</strong> —con 54 estudios entre 1980 y 2015— constató que, si bien la instrucción explícita presentaba una ligera ventaja en pruebas inmediatas, <strong>la instrucción implícita mostraba efectos claramente más duraderos en pruebas diferidas</strong> (implícita: g = 1,76).</p>
+        <div class="pull-quote">
+          <blockquote>«El hallazgo de que la instrucción explícita mejora el conocimiento explícito no desmiente en absoluto la hipótesis de que la adquisición, y no el aprendizaje explícito, es el origen de nuestra capacidad comunicativa.»<cite>— Taylor, 2023, <em>MEXTESOL Journal</em></cite></blockquote>
+        </div>
       </section>
 
-      <section id="measurement">
-        <h3>The measurement illusion</h3>
-        <p>At this point, sceptics often point to meta-analyses that seem to show grammar instruction "works." The most cited is Norris and Ortega (2000), which found large effects for explicit instruction across 49 studies.</p>
-        <p>But the authors themselves flagged a critical problem: nearly all the studies measured success with grammar tests. Teaching grammar and then testing grammar proves only that students can do grammar exercises — not that they can speak, understand, or communicate. As Taylor (2023) put it: "The finding that explicit instruction improved explicit knowledge does nothing to discredit the hypothesis that acquisition is the source of our communicative ability."</p>
-        <p>When researchers used communicative measures and longer timelines, the picture reversed. Kang, Sok, and Han (2019) analysed 54 studies spanning 35 years and found that while explicit instruction had a slight edge on immediate tests, <strong>implicit instruction showed significantly stronger effects on delayed posttests</strong> — in other words, on the knowledge that actually sticks.</p>
+      <section id="ansiedad">
+        <h3>La corrección de errores eleva la ansiedad y frena la adquisición</h3>
+        <p>En una serie influyente de trabajos, John Truscott (1996, 1999, 2007) defendió que la corrección gramatical en la escritura en L2 no solo es ineficaz, sino que resulta activamente perjudicial. Su síntesis metaanalítica de 2007 arroja un tamaño de efecto global de <strong>−0,155</strong>: pequeño, pero negativo, lo que significa que la corrección <em>empeoraba</em> ligeramente la precisión escrita. Identificó además un mecanismo especialmente insidioso: las mejoras aparentes tras la corrección pueden reflejar <strong>evitación</strong> —el alumnado simplifica su lengua para esquivar los errores en lugar de desarrollar una competencia más compleja—.</p>
+        <p>Li (2010, <em>Language Learning</em>) confirmó en un metaanálisis más amplio sobre retroalimentación correctiva que, aunque el feedback explícito produce efectos inmediatos mayores, <strong>los efectos de la retroalimentación implícita se mantienen mejor a lo largo del tiempo</strong>.</p>
+        <p>La vía de la ansiedad agrava el daño. Horwitz, Horwitz y Cope (1986, <em>Modern Language Journal</em>) establecieron la Ansiedad ante la Lengua Extranjera (FLA) como un fenómeno propio, con tres componentes: aprensión a comunicarse, ansiedad ante los exámenes y miedo a la evaluación negativa. MacIntyre y Gardner (1994, <em>Language Learning</em>) demostraron que la ansiedad interfiere en el procesamiento lingüístico en las fases de input, procesamiento <em>y</em> output.</p>
+        <p>Gregersen (2003) vinculó la FLA directamente a «la corrección estricta de errores por parte del profesorado». Gregersen y Horwitz (2002) observaron que el alumnado ansioso concebía la meta como «evitar errores», mientras que el alumnado confiado estaba «deseando hablar sin preocuparse por equivocarse».</p>
+        <div class="pull-quote">
+          <p>La <strong>Hipótesis del Filtro Afectivo</strong> de Krashen (1985) integra estas evidencias: las emociones negativas levantan una barrera psicológica que impide que el input comprensible llegue al sistema de adquisición. El aula centrada en la gramática eleva sistemáticamente ese filtro afectivo. Como afirmó Krashen: «Para que la adquisición lingüística funcione de verdad, la ansiedad debería ser cero».</p>
+        </div>
       </section>
 
-      <section id="dutch-study">
-        <h3>The six-year Dutch study: what happens with time</h3>
-        <p>Most classroom studies run for weeks. Rousse-Malpat and colleagues in the Netherlands ran theirs for six years. They compared two approaches to teaching French in Dutch secondary schools:</p>
-        <ul>
-          <li><strong>Structure-Based:</strong> explicit grammar rules, drills, textbook exercises</li>
-          <li><strong>Dynamic Usage-Based:</strong> implicit, high exposure, meaningful interaction, no grammar rules taught</li>
-        </ul>
-        <p>Here's what they found (across papers in 2019, 2022, and 2024):</p>
+      <section id="fosilizacion">
+        <h3>Fosilización: la gramática explícita es parte del problema, no de la solución</h3>
+        <p>Selinker (1972, <em>IRAL</em>) acuñó el término «fosilización» para describir los errores persistentes en L2 que resisten a la instrucción y a la corrección. Calculó que <strong>el 95 % de los aprendices de L2 no alcanza una competencia similar a la nativa</strong>. Y, de forma crítica, identificó la <strong>«transferencia del entrenamiento»</strong> —los propios patrones de enseñanza— como uno de los cinco procesos causantes de la fosilización.</p>
+        <p>Han (2004, 2012) propuso la Hipótesis de la Fosilización Selectiva, y mostró que las formas fosilizadas suelen ser comunicativamente redundantes: no impiden la comprensión. No se ha demostrado que la instrucción gramatical prevenga la fosilización; es más, la ruta declarativa que esta genera puede contribuir a ella al impedir el desarrollo de representaciones procedimentales robustas.</p>
+      </section>
+
+      <section id="estudios-nl">
+        <h3>Evidencia longitudinal de aula: los estudios neerlandeses</h3>
+        <p>La evidencia de aula más rigurosa procede de los estudios longitudinales de Rousse-Malpat y colaboradores (2019, 2022, 2024) en la educación secundaria neerlandesa. Se compararon durante <strong>seis años</strong> métodos centrados en la estructura (SB: gramática explícita, reglas, ejercicios mecánicos) con métodos basados en el uso dinámico (DUB: implícitos, con alta exposición, interacción significativa y sin reglas gramaticales):</p>
         <div class="pull-quote-grid">
           <div class="pull-quote">
-            <p><strong>After 1 year:</strong> Grammar-taught students were slightly more accurate (the rules work, short-term).</p>
+            <p><strong>A los 3 años:</strong> el alumnado DUB hablaba y escribía mejor.</p>
           </div>
           <div class="pull-quote">
-            <p><strong>After 3 years:</strong> Implicit-taught students were better at speaking and writing.</p>
+            <p><strong>A los 6 años:</strong> sin diferencias en pruebas estandarizadas de lectura y comprensión oral; el alumnado DUB alcanzaba <em>la misma precisión</em> y era <em>superior en complejidad y fluidez</em> por escrito.</p>
           </div>
         </div>
         <div class="pull-quote">
-          <p><strong>After 6 years:</strong> No differences on standardised reading and listening exams. Writing accuracy was equal — but implicit-taught students had <em>better fluency and more complex output.</em></p>
+          <blockquote>«La gramática explícita no es necesaria para alcanzar la precisión» si se dispone de tiempo suficiente e input abundante.<cite>— Rousse-Malpat et al. (2022)</cite></blockquote>
         </div>
-        <div class="pull-quote">
-          <blockquote>"Explicit grammar is not needed to achieve accuracy."<cite>— Rousse-Malpat et al. (2022), given sufficient time and input</cite></blockquote>
-        </div>
-        <p>The grammar approach offered a short-term illusion of progress. The acquisition approach produced the same accuracy <em>plus</em> fluency and complexity the other group never reached.</p>
-      </section>
-
-      <section id="fossilization">
-        <h3>The fossilisation problem</h3>
-        <p>Larry Selinker coined the term "fossilisation" in 1972 to describe persistent errors that resist all instruction and correction. He estimated that <strong>95% of second-language learners never reach native-like competence.</strong> Why do some errors lock in permanently?</p>
-        <p>Selinker identified several causes, and one of them was striking: <strong>"transfer of training"</strong> — the instructional patterns themselves. In other words, <em>how you were taught</em> can become part of the fossilised pattern. Grammar instruction hasn't been shown to prevent fossilisation. The declarative pathway it builds may actually contribute to it, by giving students a way to produce "good enough" output without developing the procedural competence that would let them grow beyond it.</p>
+        <p>Los aprendices instruidos de forma implícita tardaron más en igualar la precisión (peor el primer año, iguales en el segundo, iguales o mejores en el sexto), pero terminaron alcanzando o superando a los instruidos explícitamente en todas las medidas, además de desarrollar mayor fluidez y complejidad. El patrón refleja de manera exacta la predicción neurolingüística: el aprendizaje procedimental emerge más despacio, pero produce una competencia más robusta y automática.</p>
       </section>
     </section>
 
-    <!-- Part 2 -->
-    <section id="part-2">
-      <h2 class="part-heading">Part 2</h2>
-      <h2>What Actually Works</h2>
+    <!-- Parte II -->
+    <section id="parte-2">
+      <h2 class="part-heading">Parte II</h2>
+      <h2>Lo que la evidencia muestra que sí funciona</h2>
 
-      <section id="comprehensible-input">
-        <h3>The central insight: comprehensible input</h3>
-        <p>Here's the part that makes language teachers hopeful: we know what works, and it's not complicated.</p>
-        <p>Stephen Krashen's <strong>Input Hypothesis</strong> (1982, 1985) proposed that language is acquired "in only one way" — by understanding messages that are slightly beyond the learner's current level. Not below (too easy, no growth). Not far above (incomprehensible, no absorption). Just slightly beyond, so the brain stretches to make meaning.</p>
-        <p>This was controversial when proposed, but the evidence has piled up for four decades. As Bill VanPatten, one of the field's most rigorous researchers, has put it: "The role of communicatively embedded and comprehensible input is not a hypothesis in second language acquisition — it's a fact."</p>
-        <p>Krashen updated his thinking in 2011 with something even more useful for teachers: the <strong>Compelling Input Hypothesis.</strong> Input must be not just comprehensible but so interesting that the learner <em>forgets it's in another language.</em> Think about how kids get absorbed in a great story and don't notice an hour has passed — that's the state where acquisition happens most powerfully.</p>
-        <p>The practical implication is profound: our job isn't to explain grammar. It's to find input that students genuinely want to engage with, and make sure it's understandable. Everything else follows.</p>
+      <section id="input-comprensible">
+        <h3>El input comprensible no es una hipótesis: es un hecho consolidado</h3>
+        <p>Bill VanPatten, uno de los investigadores más rigurosos en adquisición de segundas lenguas de las últimas tres décadas, lo ha expresado sin rodeos: «El papel del input comunicativamente contextualizado y comprensible no es una hipótesis en adquisición de L2… es un hecho».</p>
+        <p>La <strong>Hipótesis del Input</strong> de Krashen (1982, 1985) propuso que la lengua se adquiere «de una única manera»: comprendiendo mensajes que contienen estructuras un paso por encima del nivel actual del aprendiz (i+1). Su <strong>Hipótesis del Orden Natural</strong> mostró que las estructuras gramaticales se adquieren siguiendo una secuencia previsible, con independencia del orden en que se enseñen, lo que significa que ningún programa gramatical puede imponerse a los procesos evolutivos.</p>
+        <p>El estudio fundacional de VanPatten y Cadierno (1993, <em>Studies in Second Language Acquisition</em>) mostró que la <strong>Instrucción por Procesamiento</strong> —que manipula el input para empujar al aprendiz a establecer conexiones forma-significado— genera alumnos que rinden igual que los instruidos tradicionalmente en tareas de producción y <em>mejor</em> en tareas de interpretación. Decenas de estudios posteriores en varias lenguas (español, francés, italiano, japonés, ruso, alemán) confirman el mismo patrón.</p>
+        <p>La teoría del Procesamiento del Input de VanPatten identifica además principios concretos sobre cómo procesan el input los aprendices, entre ellos el <strong>Principio de Primacía del Significado</strong> (los aprendices procesan el input primero por el significado y solo después por la forma). Estos principios explican <em>por qué</em> la instrucción gramatical suele fracasar: exige al aprendiz que atienda a la forma cuando su sistema de procesamiento prioriza el significado.</p>
+      </section>
+
+      <section id="input-cautivador">
+        <h3>De lo comprensible a lo cautivador: el giro de Krashen</h3>
+        <p>La actualización teórica más importante de Krashen llegó en 2011 con la <strong>Hipótesis del Input Cautivador</strong> (<em>Compelling Input Hypothesis</em>): el input no solo debe ser comprensible, sino tan interesante que el aprendiz «olvide que está en otra lengua». El input cautivador induce lo que Csikszentmihalyi (1990) llamó «flujo»: una absorción total en la que se desvanecen la conciencia de uno mismo y el paso del tiempo.</p>
+        <div class="pull-quote">
+          <blockquote>«[El input cautivador] parece eliminar la necesidad de motivación, del deseo consciente de mejorar.»<cite>— Krashen, 2011, <em>The English Connection</em></cite></blockquote>
+        </div>
+        <p>La propuesta se refinó en Krashen y Mason (2020) como <strong>Hipótesis del Input Óptimo</strong>: un input óptimo es comprensible, cautivador, rico en estructuras y abundante. La consecuencia práctica es de fondo: la tarea principal del docente no consiste en explicar gramática, sino en ofrecer un input que el alumnado encuentre genuinamente interesante y apenas suficientemente comprensible. La <strong>lectura autoelegida supera de forma sistemática a la lectura impuesta</strong> (Lee, 2007), y la capacidad de elegir —principio nuclear en Montessori— resulta central para la adquisición.</p>
       </section>
 
       <section id="tprs">
-        <h3>TPRS: stories as curriculum</h3>
-        <p>Teaching Proficiency through Reading and Storytelling (TPRS), developed by Spanish teacher Blaine Ray in the late 1980s, is the most extensively studied classroom method built on these principles.</p>
-        <p>The basic structure is simple:</p>
+        <h3>TPRS: el método de aula basado en input más estudiado</h3>
+        <p>La Enseñanza de la Competencia a través de la Lectura y la Narración (TPRS), desarrollada a finales de los años ochenta por el profesor de español Blaine Ray, es el método de aula basado en input comprensible más investigado. Funciona en tres fases:</p>
         <ol>
-          <li><strong>Establish meaning:</strong> Introduce three target phrases with gestures and a quick translation.</li>
-          <li><strong>Co-create a story:</strong> The teacher asks lots of repetitive questions ("Is there a boy? What's his name? Does he have a cat or a dog?") that generate the story collaboratively with students, providing massive repetition of the target phrases in context.</li>
-          <li><strong>Read:</strong> Students then read a version of the story or related material, processing the same language in written form.</li>
+          <li><strong>Fijar el significado:</strong> se introducen tres estructuras meta con gestos y traducción a la L1.</li>
+          <li><strong>Co-crear una historia mediante «circling»:</strong> preguntas de sí/no, disyuntivas y abiertas que aportan gran cantidad de repeticiones de las estructuras meta.</li>
+          <li><strong>Leer:</strong> procesar input escrito mediante lecturas de clase y textos integrados.</li>
         </ol>
-        <p>Karen Lichtman at Binghamton University, the leading TPRS researcher, systematically reviewed 30 comparative studies. The scorecard:</p>
+        <p>La doctora Karen Lichtman (Universidad de Binghamton), principal investigadora sobre TPRS, revisó sistemáticamente <strong>30 estudios comparativos</strong>:</p>
         <div class="pull-quote-grid">
           <div class="pull-quote">
             <span class="stat">21 / 30</span>
-            <span class="stat-label">studies showed TPRS outperforming traditional methods</span>
+            <span class="stat-label">estudios mostraban ventajas para TPRS frente a los métodos tradicionales</span>
           </div>
           <div class="pull-quote">
             <span class="stat">0 / 30</span>
-            <span class="stat-label">studies showed traditional methods winning</span>
+            <span class="stat-label">estudios mostraban superioridad de los métodos tradicionales</span>
           </div>
         </div>
-        <p>Some specific studies worth knowing:</p>
+        <p>Estudios concretos especialmente relevantes:</p>
         <ul>
-          <li><strong>Beal (2011), University of Kansas</strong> — the largest TPRS study, with 817 students across multiple US districts. TPRS significantly outperformed traditional instruction in middle school, with lower anxiety and higher rates of continued enrolment in language study.</li>
-          <li><strong>Pippins and Krashen (2016)</strong> — 13 TPRS-prepared high school students averaged 3.5 on the AP Spanish exam — exactly the US national average — despite having no traditional grammar preparation.</li>
-          <li><strong>Mason (Japan, 2020–2023)</strong> — 112 public junior high students over 3 years. Control groups spent 286 <em>additional</em> hours on homework, memorisation, and drills. Final exam scores were statistically identical. The TPRS group achieved the same results with dramatically less total study time.</li>
+          <li><strong>Watson (2009, <em>IJFLT</em>):</strong> español en secundaria; tras un año, el alumnado TPRS superó significativamente al tradicional en lectura, comprensión oral y expresión oral.</li>
+          <li><strong>Beal (2011, Universidad de Kansas):</strong> el mayor estudio TPRS hasta la fecha, con <strong>817 alumnos</strong> en varios distritos; TPRS superó de forma significativa a la enseñanza tradicional en secundaria obligatoria, con menor ansiedad y mayor continuidad en la matrícula.</li>
+          <li><strong>Pippins y Krashen (2016, <em>IJFLT</em>):</strong> 13 alumnos preparados con TPRS obtuvieron una media de <strong>3,5 en el examen AP de Español</strong>, la media nacional, pese a no haber seguido preparación gramatical tradicional.</li>
+          <li><strong>Mason (Japón, 2020–2023):</strong> 112 alumnos de secundaria pública durante 3 años; pese a que los grupos de control dedicaron <strong>286 horas adicionales</strong> a deberes, memorización y ejercicios de gramática, no hubo diferencias significativas en los exámenes finales.</li>
         </ul>
         <div class="pull-quote">
-          <span class="stat">d = 1.13</span>
-          <span class="stat-label">Overall effect size in a 2021 meta-analysis of TPR-based studies — classified as a "strong" effect in educational research. Beyond test scores, TPRS consistently produces motivational benefits. Students report finding the classes enjoyable. Anxiety drops. Confidence rises.</span>
+          <span class="stat">d = 1,131</span>
+          <span class="stat-label">Tamaño de efecto global en un metaanálisis de 2021 de estudios basados en TPR (ERIC, 2021), clasificado como «fuerte». Más allá de las calificaciones, TPRS produce de forma constante beneficios motivacionales: clases más disfrutables, menos ansiógenas y con mayor desarrollo de la confianza.</span>
         </div>
       </section>
 
-      <section id="extensive-reading">
-        <h3>Extensive reading: the most underused tool</h3>
-        <p>If there's one intervention with an evidence base strong enough to call it a no-brainer, it's free voluntary reading.</p>
-        <p>The landmark study is the <strong>Fiji Book Flood</strong> (Elley and Mangubhai, 1983, <em>Reading Research Quarterly</em>). Researchers gave 380 grade 4–5 students 250 high-interest English storybooks. After 8 months, <strong>Book Flood students progressed at twice the normal rate</strong> in reading and listening comprehension. By year 2, gains extended to grammar and writing — with no grammar instruction at all. Elley replicated these findings across Niue, Singapore, Sri Lanka, South Africa, and the Solomon Islands. His conclusion: it's possible to "double the rate of reading acquisition" with about 100 high-interest books per class.</p>
+      <section id="lectura-extensiva">
+        <h3>Lectura extensiva: duplicar el ritmo de adquisición</h3>
+        <p>La evidencia a favor de la lectura extensiva o Lectura Voluntaria Libre (FVR) como herramienta de adquisición lingüística está entre las más sólidas del campo. El <strong>estudio de la «inundación de libros» en Fiyi</strong> (Elley y Mangubhai, 1983, <em>Reading Research Quarterly</em>) dotó a 380 alumnos de 4.º y 5.º curso con 250 libros de historias atractivas en inglés. Pasados 8 meses, <strong>el alumnado avanzó al doble del ritmo habitual</strong> en comprensión lectora y oral. En el segundo año, los beneficios se extendieron a la gramática y a la escritura, sin instrucción gramatical alguna.</p>
+        <p>Elley (2000) replicó los hallazgos en Niue, Singapur, Sri Lanka, Sudáfrica y las Islas Salomón, concluyendo que es posible «duplicar el ritmo de adquisición lectora» con unos 100 libros atractivos por aula.</p>
         <div class="pull-quote">
-          <span class="stat">93%</span>
-          <span class="stat-label">Krashen's synthesis: in 38 out of 41 comparisons, free readers performed as well as or better than students receiving direct instruction. In studies lasting a year or longer, 8 out of 9 comparisons showed free readers significantly outperforming instructed students.</span>
+          <span class="stat">93 %</span>
+          <span class="stat-label">La síntesis de Krashen sobre la FVR muestra que, en 38 de 41 comparaciones, el alumnado que leía libremente igualaba o superaba al instruido de forma directa. En los estudios de un año o más, 8 de 9 comparaciones mostraron una ventaja significativa a favor del grupo lector.</span>
         </div>
-        <p>Perhaps most striking: Stokes, Krashen, and Kartchner (1998) found that even the Spanish subjunctive — one of the most famously tricky grammar structures, the one textbooks spend entire chapters on — was acquired through reading alone, without explicit instruction.</p>
-        <p>The practical implication for any school with a budget: a well-stocked classroom library of level-appropriate, genuinely interesting books, with dedicated reading time, is probably the highest-leverage language investment you can make.</p>
+        <p>Stokes, Krashen y Kartchner (1998) comprobaron que la lectura contribuía incluso a la adquisición del subjuntivo en español, una de las estructuras gramaticales más notoriamente difíciles. Las implicaciones para una biblioteca escolar y un programa de lectura en el aula son claras y accionables.</p>
       </section>
 
-      <section id="immersion">
-        <h3>The big-picture evidence: immersion at scale</h3>
-        <p>The strongest evidence that input-rich education works at scale comes from program evaluations.</p>
-        <p>The <strong>RAND/Portland study</strong> (Steele et al., 2017, in the <em>American Educational Research Journal</em>) is the gold standard. It used enrolment lottery randomisation — students who applied to dual-language immersion schools were randomly assigned or not, giving researchers a genuinely controlled comparison across 1,625 students in 12 schools. Results:</p>
+      <section id="inversion">
+        <h3>La evidencia a gran escala: inmersión y programas bilingües duales</h3>
+        <p>La mejor evidencia causal a favor de una educación lingüística rica en input procede de evaluaciones de programas a gran escala. El <strong>estudio RAND/Portland</strong> (Steele et al., 2017, <em>American Educational Research Journal</em>) empleó aleatorización por sorteo en la matrícula —patrón de oro para la inferencia causal— con <strong>1.625 alumnos</strong> en 12 centros de inmersión en dos lenguas (DLI).</p>
         <div class="pull-quote-grid">
           <div class="pull-quote">
             <span class="stat">+22</span>
-            <span class="stat-label">percentile points on state reading tests by grade 8 for students randomly assigned to dual language immersion</span>
+            <span class="stat-label">puntos percentiles en las pruebas estatales de lectura en 8.º curso para el alumnado asignado al azar a los programas de inmersión bilingüe</span>
           </div>
           <div class="pull-quote">
-            <span class="stat">2–4%</span>
-            <span class="stat-label">additional per-pupil spending — the differential cost of immersion over standard instruction</span>
+            <span class="stat">2–4 %</span>
+            <span class="stat-label">gasto diferencial adicional por alumno — el coste marginal de la inmersión frente a la enseñanza estándar</span>
           </div>
         </div>
-        <p>Thomas and Collier's 32-year research program (synthesised 2017, <em>Annual Review of Applied Linguistics</em>), drawing on more than 7.5 million student records across 36 US districts, found that high-quality dual-language programs are the <em>only</em> program model that fully closes the academic achievement gap for English learners.</p>
-        <p>Canadian French immersion, running for 60+ years with over 300,000 students, shows consistent results: high second-language proficiency at no cost to academic performance, plus cognitive benefits including mental flexibility, creative thinking, and metalinguistic awareness (Lazaruk, 2007).</p>
-      </section>
-
-      <section id="spain">
-        <h3>A note on Spain's situation</h3>
-        <p>Spain's language education outcomes illustrate what happens when a country invests heavily in grammar-focused teaching. On the 2025 EF English Proficiency Index, Spain ranks 36th globally — "Moderate" proficiency — trailing virtually every EU member state. The Netherlands, Croatia, Austria, and Germany all score dramatically higher. Spain's weakest skill is <em>speaking</em> (462) — precisely the skill most dependent on procedural memory and most damaged by grammar-focused instruction.</p>
-        <p>CLIL (Content and Language Integrated Learning) has been Spain's reform strategy since the mid-2000s and now covers roughly 45% of public schools. Results are mixed, and researchers have identified a consistent pattern: much "CLIL" is actually traditional teaching <em>conducted in English</em> by teachers with limited English themselves. It's not really immersion or acquisition-based teaching — it's the same methods in a different language. Unsurprisingly, outcomes have been modest.</p>
-        <p>The policy environment, however, is receptive. Spain's LOMLOE (2020) and the CEFR Companion Volume (2020) both explicitly frame learners as "language users" rather than "language students," with assessment built around what learners can <em>do</em> with the language. The framework supports acquisition-based methods; the bottleneck is implementation at the school level.</p>
+        <p>El programa de investigación de 32 años de Thomas y Collier (síntesis de 2017, <em>Annual Review of Applied Linguistics</em>), con <strong>más de 7,5 millones de registros de alumnos de 36 distritos en 16 estados de EE. UU.</strong>, concluyó que los programas bilingües duales de alta calidad son el <em>único</em> modelo que cierra por completo la brecha de rendimiento del alumnado que aprende inglés.</p>
+        <p>Los 60 años de investigación sobre la inmersión francesa en Canadá, con <strong>más de 300.000 alumnos</strong>, muestran que los estudiantes alcanzan un alto dominio de la L2 sin coste para el éxito académico y con beneficios cognitivos documentados: mayor flexibilidad mental, pensamiento creativo y conciencia metalingüística (Lazaruk, 2007, <em>Canadian Modern Language Review</em>).</p>
       </section>
     </section>
 
-    <!-- Part 3 -->
-    <section id="part-3">
-      <h2 class="part-heading">Part 3</h2>
-      <h2>A Cookbook for Montessori Schools</h2>
+    <!-- Parte III -->
+    <section id="parte-3">
+      <h2 class="part-heading">Parte III</h2>
+      <h2>El contexto español y europeo</h2>
 
-      <section id="montessori-fit">
-        <h3>Why this fits our pedagogy naturally</h3>
-        <p>Before we get to the practical steps, it's worth naming why this transition is less of a leap for a Montessori school than it would be for a conventional one. Maria Montessori wrote about the "absorbent mind" — the child's capacity to internalise language unconsciously from the environment — decades before Krashen's acquisition-learning distinction. She specifically observed that "learning a second language later in life is a conscious undertaking," distinguishing it from natural acquisition. She was describing what neuroscience has now confirmed.</p>
-        <p>The alignment is systematic:</p>
+      <section id="espana">
+        <h3>El problema de dominio del inglés en España evidencia el fracaso de los métodos tradicionales</h3>
+        <p>Los resultados en enseñanza de lenguas en España ofrecen un estudio de caso natural sobre las consecuencias de una enseñanza centrada en la gramática. En el <strong>EF English Proficiency Index de 2025, España ocupa el puesto 36 a nivel mundial, con 540 puntos</strong> —nivel «moderado»—, por detrás de prácticamente todos los Estados miembros de la UE. Países Bajos (624), Croacia (617), Austria (616) y Alemania (615) obtienen puntuaciones muy superiores.</p>
+        <div class="pull-quote">
+          <p>La destreza más débil de España es, precisamente, la <strong>expresión oral (462)</strong>, la que más depende de la memoria procedimental y la más perjudicada por una enseñanza centrada en la gramática.</p>
+        </div>
+        <p>Los datos de Eurostat (2016) mostraban que <strong>el 45,8 % de los españoles entre 25 y 64 años no sabía hablar ninguna lengua extranjera</strong>. Una encuesta del CIS de 2017 reveló que casi el 60 % de los encuestados no podía leer, escribir ni hablar inglés. Los investigadores apuntan a varios factores: la cultura del doblaje (frente a la subtitulación propia de los países con mejores resultados), el peso global del español como lengua, y, sobre todo, <strong>una pedagogía tradicional centrada en la gramática que trata el inglés "como si fuera una asignatura teórica más que una materia práctica"</strong> (Llurda, 2024, <em>World Englishes</em>).</p>
+      </section>
+
+      <section id="clil">
+        <h3>AICLE en España: la idea adecuada, una ejecución problemática</h3>
+        <p>El Aprendizaje Integrado de Contenidos y Lenguas Extranjeras (AICLE o CLIL) ha sido la estrategia dominante de reforma en España desde mediados de los 2000. El Programa Bilingüe de Madrid arrancó en 2004-2005 con 26 centros y para el curso 2016-2017 cubría ya <strong>el 45 % de los centros públicos de Primaria y Secundaria</strong>. Las 17 comunidades autónomas disponen hoy de programas AICLE.</p>
+        <p>Los resultados son dispares. El estudio de Pérez Cañado (2018) —el mayor estudio controlado al respecto, con <strong>2.024 alumnos en 53 centros de 12 provincias</strong>— concluyó que AICLE tenía un impacto beneficioso sobre la competencia en inglés sin perjudicar la L1 ni el aprendizaje de contenidos. En cambio, Anghel, Cabrales y Carro (2016) encontraron <strong>efectos negativos</strong> en las pruebas de contenidos en Madrid, especialmente entre alumnos de familias con menor nivel educativo.</p>
+        <p>El problema de fondo es otro: en España, AICLE se traduce a menudo en <strong>enseñanza tradicional impartida en inglés por docentes con un dominio limitado de esa lengua</strong>. Eso no es instrucción basada en la adquisición: el input resultante no es ni suficientemente comprensible ni suficientemente cautivador. Pese a veinte años de inversión en AICLE, el puesto de España en el EF EPI apenas ha mejorado.</p>
+      </section>
+
+      <section id="politica-europea">
+        <h3>La política europea respalda los enfoques basados en la adquisición</h3>
+        <p>El <strong>Volumen Complementario del MCER (2020)</strong> formaliza el enfoque orientado a la acción del Consejo de Europa, al presentar expresamente al aprendiz como «usuario de la lengua y agente social» y definir la meta como «aprender a usar la lengua, no solo aprender sobre la lengua». Los descriptores «puedo hacer» del MCER evalúan perfiles de competencia comunicativa, no conocimiento gramatical atomizado.</p>
+        <p>La <strong>LOMLOE</strong> española (2020, con implantación desde 2022/23) designa la competencia plurilingüe como competencia clave, organiza el currículo de lenguas extranjeras en torno a los ejes de Comunicación, Multilingüismo e Interculturalidad, y prioriza la comprensión, la expresión y la interacción orales en Educación Primaria. El entorno normativo es, por tanto, favorable a los métodos basados en la adquisición; la brecha está en la implementación.</p>
+        <p>El <strong>Proyecto Erasmus+ Bilingual Montessori</strong> (2023-2025), con socios en Chequia, Estonia, España y Francia, está desarrollando ya recursos específicos para la educación Montessori bilingüe: una señal directa de respaldo institucional a nivel europeo.</p>
+      </section>
+    </section>
+
+    <!-- Parte IV -->
+    <section id="parte-4">
+      <h2 class="part-heading">Parte IV</h2>
+      <h2>Por qué Montessori y los métodos basados en la adquisición son aliados naturales</h2>
+
+      <section id="afinidad">
+        <h3>La afinidad filosófica es profunda</h3>
+        <p>La afinidad entre los principios Montessori y la enseñanza de lenguas basada en la adquisición no es superficial: responde a supuestos compartidos sobre cómo funciona el aprendizaje. El concepto montessoriano de <strong>«mente absorbente»</strong> (1949) —esa capacidad infantil de interiorizar la lengua de forma inconsciente a partir del entorno— se corresponde directamente con la distinción adquisición-aprendizaje de Krashen y con la evidencia neurolingüística de que la memoria procedimental sustenta la competencia lingüística implícita.</p>
+        <p>La propia María Montessori observó que «aprender una segunda lengua más adelante en la vida es una tarea consciente»: articuló la distinción adquisición-aprendizaje décadas antes de que Krashen la formalizase. Las correspondencias son sistemáticas:</p>
+
         <table class="alignment-table">
           <thead>
             <tr>
-              <th>Montessori Principle</th>
-              <th>Acquisition-Based Teaching</th>
+              <th>Principio Montessori</th>
+              <th>Enseñanza basada en la adquisición</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Prepared environment</td>
-              <td>A room rich in target-language input: books, audio, visuals, stories</td>
+              <td>Ambiente preparado</td>
+              <td>Un aula rica en input en la lengua meta: libros, audio, materiales visuales, historias cautivadoras, organizados por complejidad para la exploración autónoma</td>
             </tr>
             <tr>
-              <td>Following the child</td>
-              <td>Comprehensible input matched to each student's level; self-selected reading</td>
+              <td>Seguir al niño</td>
+              <td>Input comprensible adaptado al nivel i+1 de cada aprendiz; lectura autoelegida. La hipótesis del input cautivador requiere conocer y respetar qué le resulta genuinamente atractivo a cada niño</td>
             </tr>
             <tr>
-              <td>Intrinsic motivation, no grades</td>
-              <td>Low affective filter — the precondition for acquisition</td>
+              <td>Motivación intrínseca / sin calificaciones</td>
+              <td>Filtro afectivo bajo: la precondición para la adquisición. El trabajo autónomo elimina el fracaso público; las agrupaciones multiedad reducen la comparación social</td>
             </tr>
             <tr>
-              <td>Auto-education</td>
-              <td>Implicit acquisition from meaningful engagement, not direct instruction</td>
+              <td>Autoeducación</td>
+              <td>Adquisición implícita a través de la interacción significativa con el entorno, no de la instrucción directa sobre reglas gramaticales</td>
             </tr>
             <tr>
-              <td>Mixed-age groupings</td>
-              <td>Older students provide natural, level-varied input for younger ones</td>
-            </tr>
-            <tr>
-              <td>Cosmic Education</td>
-              <td>Language taught through compelling content (science, history, culture)</td>
+              <td>Educación cósmica</td>
+              <td>Enseñanza de la lengua basada en contenidos cautivadores (ciencia, historia, cultura): uno de los vehículos más eficaces para el input comprensible</td>
             </tr>
           </tbody>
         </table>
-        <p>Adopting comprehensible-input methods isn't importing something foreign into our pedagogy. It's resolving the one place where current language teaching contradicts it.</p>
-      </section>
 
-      <section id="phase-1">
-        <h3>Phase 1: The Prepared Linguistic Environment (Term 1)</h3>
-        <p><strong>Build the library first.</strong> Before changing any lesson plan, build a classroom library of 80–120 high-interest books in the target language, graded by level. Picture books for the youngest learners. Simple novellas for older students. A mix of fiction and non-fiction. The "Fiji Book Flood" research suggests ~100 books per class is the sweet spot.</p>
-        <p>Good sources: graded readers from publishers like Command Performance Language Institute, Fluency Matters, TPRS Books, and Wayside Publishing. For Spanish specifically, authors like Mira Canion, Carol Gaab, and Carrie Toth have written entire libraries of level-appropriate novels.</p>
-        <p><strong>Add audio and visuals.</strong> Age-appropriate songs, podcasts, animated series with subtitles in the target language. The goal is making the target language an ambient presence, not just a scheduled subject.</p>
-      </section>
-
-      <section id="phase-2">
-        <h3>Phase 2: Teacher Development (Terms 1–2)</h3>
-        <p>This is the non-negotiable. Teachers can't teach what they haven't experienced. Invest in:</p>
-        <ul>
-          <li><strong>TPRS training.</strong> Organisations like Blaine Ray Workshops, Fluency Matters, and Express Fluency run intensive workshops. Many offer online options. Budget: roughly €400–800 per teacher for a quality multi-day workshop.</li>
-          <li><strong>CI community membership.</strong> Groups like the IFLT conference, Comprehensible Online, and Spanish/French-specific Facebook communities (e.g. "iFLT/NTPRS/CI Teaching") offer ongoing support.</li>
-          <li><strong>Observations.</strong> If possible, arrange for teachers to visit a school already using these methods. One day of watching is worth a month of reading about it.</li>
-        </ul>
-        <p>Pair this with reading. Two practitioner books are essential: Karen Lichtman's <em>Teaching Proficiency through Reading and Storytelling (TPRS): An Input-Based Approach</em> (2018) and Stephen Krashen's <em>Principles and Practice in Second Language Acquisition</em> (free online at sdkrashen.com).</p>
-      </section>
-
-      <section id="phase-3">
-        <h3>Phase 3: Classroom Implementation (Terms 2–3)</h3>
-        <p>A typical CI-based lesson has a rhythm:</p>
-        <ul>
-          <li><strong>5–10 minutes:</strong> Warm-up in the target language — a personalised question the class discusses ("Who ate something unusual this weekend?"), heavily scaffolded with gestures, drawings, and occasional translation.</li>
-          <li><strong>20–30 minutes:</strong> Main input activity — a co-created story, a reading circle, a "Movie Talk" (narrating a short film clip in simple target language), or a discussion of a compelling image.</li>
-          <li><strong>10–15 minutes:</strong> Free reading from the classroom library. Students choose their own book. The only rule is that they read.</li>
-          <li><strong>Optional closing:</strong> A brief writing task — not a grammar exercise but a personal response ("Write three things you'd tell the character in our story").</li>
-        </ul>
-        <p>What's notably <em>absent</em>: grammar explanations as a primary activity, vocabulary lists to memorise, fill-in-the-blank worksheets, verb conjugation tables. If a grammar point comes up naturally ("We keep hearing 'fue' in this story — it means 'he went'"), handle it in 30 seconds and move on. Never make it the lesson.</p>
-      </section>
-
-      <section id="phase-4">
-        <h3>Phase 4: Assessment Redesign (Term 3 onward)</h3>
-        <p>This is where schools often stumble. If you change the teaching but keep the grammar tests, teachers will revert to grammar teaching — the tests will pull them back. New approaches to consider:</p>
-        <ul>
-          <li><strong>Proficiency-based assessments</strong> aligned with the CEFR's "can-do" descriptors. ACTFL's AAPPL and STAMP tests offer external benchmarking.</li>
-          <li><strong>Timed writes:</strong> students write for 5–10 minutes on a prompt. Score for word count, comprehensibility, and complexity — not grammatical perfection.</li>
-          <li><strong>Free retells:</strong> students retell a story they've heard or read. Score for detail, fluency, and comprehensibility.</li>
-          <li><strong>Extensive reading logs:</strong> track pages read, with brief reflections. This honours the effort without testing it extractively.</li>
-        </ul>
-        <p>Report card language also needs rethinking. Instead of "85% on grammar test," think "Can describe past events in 2–3 connected sentences" or "Reads independently at Intermediate-Low level." This is how the CEFR and ACTFL frameworks are built.</p>
-      </section>
-
-      <section id="real-schools">
-        <h3>Real schools that have done this</h3>
-        <p>A few concrete examples of schools and programs that have made the transition, for board members who want proof of concept:</p>
-        <ul>
-          <li><strong>Denver Language School</strong> (US) — dual-language immersion using CI methods, one of the highest-performing schools in Colorado across all subjects.</li>
-          <li><strong>Uncommon Schools network</strong> — adopted TPRS across their language programs; reported improved AP exam pass rates and dramatically higher student enrolment in upper-level language courses.</li>
-          <li><strong>Bilingual Montessori European Project</strong> (2023–2025) — an Erasmus+ funded initiative with partner schools in the Czech Republic, Estonia, Spain, and France, developing CI-aligned language resources specifically for Montessori settings. Worth contacting for materials and collaboration.</li>
-          <li><strong>German Bilingual Montessori Schools</strong> studied by Winnefeld (2012) — documented task-based and immersion approaches succeeding in primary Montessori contexts.</li>
-        </ul>
-      </section>
-
-      <section id="what-to-expect">
-        <h3>What to expect (and what to prepare stakeholders for)</h3>
-        <p>Two things to tell parents and board members up front, because they <em>will</em> come up:</p>
-        <p><strong>1. Accuracy will lag initially.</strong> In year one, students taught with CI methods often make more surface errors than students drilled on grammar. This is not a problem — it's exactly what the Dutch longitudinal research (Rousse-Malpat et al.) predicted. By year two the groups equalise; by year three the CI students pull ahead in fluency and complexity. But if parents only see the year-one snapshot, they'll panic. Get ahead of this with clear communication about the research and what to expect on what timeline.</p>
-        <p><strong>2. It will look different than what parents remember from school.</strong> Fewer worksheets coming home. No verb conjugation homework. Less obvious "work" in the traditional sense. This worries some parents. Counter it by sending home what students <em>can do</em> — audio recordings of them telling stories, photos of what they've read, videos of classroom discussions. Make the progress visible in the form it actually takes.</p>
-      </section>
-
-      <section id="timeline">
-        <h3>A realistic timeline</h3>
-        <p>A full transition typically takes 2–3 years to complete. A reasonable phasing:</p>
-        <ul>
-          <li><strong>Year 1:</strong> One or two willing teachers pilot CI methods with one or two class groups. Library built. Teacher training initiated. Other classes continue as before.</li>
-          <li><strong>Year 2:</strong> Pilot expands. Early data collected. Parents of pilot classes receive detailed communication about the approach and early outcomes. Other teachers begin training.</li>
-          <li><strong>Year 3:</strong> School-wide adoption. Assessment system fully redesigned. Ongoing professional development community established.</li>
-        </ul>
-        <p>Trying to change everything at once usually fails. Let the early adopters succeed and let their students' outcomes recruit the rest.</p>
+        <p>Rosales Chavarría (2021, <em>Journal of Montessori Research</em>) documentó los esfuerzos por alinear la enseñanza de la L2 con la pedagogía Montessori en una Casa de Niños en México, con transición hacia planteamientos de inmersión dirigidos por el propio aprendiz. Winnefeld (2012) estudió el aprendizaje de lenguas basado en tareas en escuelas Montessori bilingües de primaria en Alemania.</p>
+        <p>Si bien sigue faltando evidencia comparativa rigurosa sobre implementaciones Montessori basadas en input comprensible, la afinidad teórica es lo bastante sólida como para que adoptarlas suponga una prolongación lógica de la práctica Montessori, no una ruptura con ella.</p>
       </section>
     </section>
 
-    <!-- Part 4 -->
-    <section id="short-version">
-      <h2 class="part-heading">Part 4</h2>
-      <h2>The Short Version, for Hallway Conversations</h2>
-      <p>If someone asks you to summarise this in a minute, here's the version:</p>
+    <!-- Conclusión -->
+    <section id="conclusion">
+      <h2>Conclusión: la evidencia converge en un camino claro</h2>
+      <p>La investigación aquí presentada no es un conjunto de hallazgos dispersos, sino un cuerpo convergente de evidencia procedente de la neurolingüística, la ciencia cognitiva, los metaanálisis, los estudios longitudinales de aula y las evaluaciones de programas a gran escala: todas apuntan en la misma dirección. La instrucción gramatical explícita genera representaciones en la memoria declarativa, neuroanatómica y computacionalmente distintas de la competencia procedimental que requiere el habla fluida.</p>
+
+      <p>Tres ideas merecen un énfasis especial de cara a quienes toman decisiones.</p>
+
       <div class="pull-quote">
-        <blockquote>Teaching a language by explaining its grammar rules is like teaching someone to ride a bike by explaining physics. The knowledge goes into the wrong part of the brain — the part that's good at remembering facts, not the part that handles automatic skills. Forty years of research, including brain imaging, shows this clearly. What actually builds the ability to speak a language is the same thing that built your first language: lots of understandable, interesting input in real contexts. Stories, reading, conversations. We know it works: classes using these methods consistently match or outperform traditional ones on every measure, while students enjoy it more and stick with it longer. And it aligns with everything else we already believe about how children learn.</blockquote>
+        <p><strong>Primero, la premisa de «primero la gramática, después la fluidez» carece de base neurocientífica.</strong> Paradis (2009), Ullman (2004, 2016) y Morgan-Short et al. (2012) han mostrado que el conocimiento gramatical declarativo no se convierte en competencia procedimental con la práctica: es <em>reemplazado</em> por un conocimiento implícito adquirido de forma separada a través de la experiencia comunicativa. Cada hora en fichas de gramática es una hora que no se dedica al input comprensible que sí construye fluidez.</p>
       </div>
-    </section>
 
-    <!-- References -->
-    <section id="references">
-      <h2>Key References</h2>
+      <div class="pull-quote">
+        <p><strong>Segundo, la evidencia a favor de las alternativas basadas en la adquisición es considerable y sigue creciendo.</strong> TPRS supera a los métodos tradicionales en aproximadamente el 70 % de los estudios comparativos, sin ningún estudio que muestre lo contrario (Lichtman, 2019). El estudio RAND/Portland (Steele et al., 2017) aporta evidencia causal de patrón oro. Los estudios longitudinales neerlandeses (Rousse-Malpat et al., 2019-2024) muestran que, a los seis años, el alumnado instruido implícitamente iguala al instruido explícitamente en precisión y lo supera en fluidez y complejidad.</p>
+      </div>
 
-      <h3>The brain science</h3>
-      <ul class="reference-list">
-        <li><strong>Paradis, M.</strong> (2004). <em>A Neurolinguistic Theory of Bilingualism.</em> John Benjamins.</li>
-        <li><strong>Paradis, M.</strong> (2009). <em>Declarative and Procedural Determinants of Second Languages.</em> John Benjamins.</li>
-        <li><strong>Ullman, M. T.</strong> (2001). The neural basis of lexicon and grammar in first and second language: The declarative/procedural model. <em>Bilingualism: Language and Cognition</em>, 4(1), 105–122.</li>
-        <li><strong>Ullman, M. T.</strong> (2016). The declarative/procedural model: A neurobiological model of language learning, knowledge, and use. In <em>Neurobiology of Language</em> (pp. 953–968). Elsevier.</li>
-        <li><strong>Morgan-Short, K., Steinhauer, K., Sanz, C., &amp; Ullman, M. T.</strong> (2012). Explicit and implicit second language training differentially affect the achievement of native-like brain activation patterns. <em>Journal of Cognitive Neuroscience</em>, 24(4), 933–947.</li>
-        <li><strong>Hamrick, P., Lum, J. A. G., &amp; Ullman, M. T.</strong> (2018). Child first language and adult second language are both tied to general-purpose learning systems. <em>PNAS</em>, 115(7), 1487–1492.</li>
-        <li><strong>Tagarelli, K. M., Shattuck, K. F., Turkeltaub, P. E., &amp; Ullman, M. T.</strong> (2019). Language learning in the adult brain: A neuroanatomical meta-analysis of lexical and grammatical learning. <em>NeuroImage</em>, 193, 178–200.</li>
-      </ul>
+      <div class="pull-quote">
+        <p><strong>Tercero, la persistencia del bajo dominio del inglés en España, tras décadas de instrucción centrada en la gramática e inversión en AICLE, es ya por sí misma una evidencia</strong> de que los enfoques actuales están fracasando. Un 462 en expresión oral del EF EPI es precisamente el resultado que la neurolingüística predice para un sistema que canaliza el aprendizaje de la lengua hacia la memoria declarativa.</p>
+      </div>
 
-      <h3>The SLA theory</h3>
-      <ul class="reference-list">
-        <li><strong>Krashen, S.</strong> (1982). <em>Principles and Practice in Second Language Acquisition.</em> Pergamon. (Free at sdkrashen.com)</li>
-        <li><strong>Krashen, S.</strong> (1985). <em>The Input Hypothesis: Issues and Implications.</em> Longman.</li>
-        <li><strong>Krashen, S.</strong> (2011). The compelling (not just interesting) input hypothesis. <em>The English Connection</em>, 15(3), 1.</li>
-        <li><strong>VanPatten, B., &amp; Cadierno, T.</strong> (1993). Explicit instruction and input processing. <em>Studies in Second Language Acquisition</em>, 15(2), 225–243.</li>
-        <li><strong>VanPatten, B.</strong> (2015). <em>Input Processing in Adult Second Language Acquisition.</em> In <em>Theories in Second Language Acquisition</em> (2nd ed.). Routledge.</li>
-      </ul>
-
-      <h3>The meta-analyses</h3>
-      <ul class="reference-list">
-        <li><strong>Norris, J. M., &amp; Ortega, L.</strong> (2000). Effectiveness of L2 instruction: A research synthesis and quantitative meta-analysis. <em>Language Learning</em>, 50(3), 417–528.</li>
-        <li><strong>Kang, E. Y., Sok, S., &amp; Han, Z.</strong> (2019). Thirty-five years of ISLA on form-focused instruction: A meta-analysis. <em>Language Teaching Research</em>, 23(4), 428–453.</li>
-        <li><strong>Li, S.</strong> (2010). The effectiveness of corrective feedback in SLA: A meta-analysis. <em>Language Learning</em>, 60(2), 309–365.</li>
-        <li><strong>Truscott, J.</strong> (2007). The effect of error correction on learners' ability to write accurately. <em>Journal of Second Language Writing</em>, 16(4), 255–272.</li>
-      </ul>
-
-      <h3>The classroom and program research</h3>
-      <ul class="reference-list">
-        <li><strong>Rousse-Malpat, A., Steinkrauss, R., Verspoor, M., et al.</strong> (2019, 2022, 2024). Series of papers on Dutch secondary school longitudinal study, <em>Journal of the European Second Language Association</em> and <em>Language Teaching Research</em>.</li>
-        <li><strong>Lichtman, K.</strong> (2018). <em>Teaching Proficiency through Reading and Storytelling (TPRS): An Input-Based Approach to Second Language Instruction.</em> Routledge.</li>
-        <li><strong>Beal, K.</strong> (2011). <em>The correlates of storytelling from the Teaching Proficiency through Reading and Storytelling (TPRS) method of foreign language instruction.</em> Dissertation, University of Kansas.</li>
-        <li><strong>Elley, W. B., &amp; Mangubhai, F.</strong> (1983). The impact of reading on second language learning. <em>Reading Research Quarterly</em>, 19(1), 53–67.</li>
-        <li><strong>Elley, W. B.</strong> (2000). The potential of book floods for raising literacy levels. <em>International Review of Education</em>, 46(3), 233–255.</li>
-        <li><strong>Steele, J. L., et al.</strong> (2017). Effects of dual-language immersion programs on student achievement: Evidence from lottery data. <em>American Educational Research Journal</em>, 54(1S), 282S–306S.</li>
-        <li><strong>Thomas, W. P., &amp; Collier, V. P.</strong> (2017). Validating the power of bilingual schooling: Thirty-two years of large-scale, longitudinal research. <em>Annual Review of Applied Linguistics</em>, 37, 203–217.</li>
-      </ul>
-
-      <h3>The affective side</h3>
-      <ul class="reference-list">
-        <li><strong>Horwitz, E. K., Horwitz, M. B., &amp; Cope, J.</strong> (1986). Foreign language classroom anxiety. <em>The Modern Language Journal</em>, 70(2), 125–132.</li>
-        <li><strong>MacIntyre, P. D., &amp; Gardner, R. C.</strong> (1994). The subtle effects of language anxiety on cognitive processing in the second language. <em>Language Learning</em>, 44(2), 283–305.</li>
-        <li><strong>Gregersen, T., &amp; Horwitz, E. K.</strong> (2002). Language learning and perfectionism: Anxious and non-anxious language learners' reactions to their own oral performance. <em>The Modern Language Journal</em>, 86(4), 562–570.</li>
-      </ul>
-
-      <h3>The Montessori connection</h3>
-      <ul class="reference-list">
-        <li><strong>Rosales Chavarria, A.</strong> (2021). Second Language Corner for Children's House: A Practitioner–Researcher Journey Into Bilingualism in Montessori Education. <em>Journal of Montessori Research</em>, 7(1).</li>
-        <li><strong>Winnefeld, J.</strong> (2012). Task-based language learning in bilingual Montessori elementary schools: Customizing foreign language learning and promoting L2 speaking skills. <em>Linguistik Online</em>, 54(4).</li>
-      </ul>
-
-      <h3>Spain and European context</h3>
-      <ul class="reference-list">
-        <li><strong>EF Education First</strong> (2025). <em>EF English Proficiency Index.</em> Available at ef.com/epi.</li>
-        <li><strong>Pérez Cañado, M. L.</strong> (2018). CLIL and educational level: A longitudinal study on the impact of CLIL on language outcomes. <em>Porta Linguarum</em>, 29, 51–70.</li>
-        <li><strong>Council of Europe</strong> (2020). <em>Common European Framework of Reference for Languages: Learning, Teaching, Assessment — Companion Volume.</em> Available at coe.int.</li>
-      </ul>
+      <div class="pull-quote">
+        <blockquote>Una escuela Montessori que adopte una enseñanza de lenguas basada en el input comprensible no está ensayando un enfoque sin evidencia: está alineando su programa lingüístico con los mismos principios —ambiente preparado, seguir al niño, motivación intrínseca, aprendizaje a través de la implicación significativa y no de la instrucción explícita— que ya definen cualquier otra área de la pedagogía Montessori. La pregunta, por tanto, no es si la evidencia respalda este cambio, sino por qué una escuela comprometida con los principios Montessori seguiría sosteniendo una enseñanza de gramática-traducción que los contradice.</blockquote>
+      </div>
     </section>
 
   </article>
@@ -484,8 +374,6 @@
     }
 
     function update() {
-      // Last section whose top is at or above 30% of viewport height wins.
-      // querySelectorAll is depth-first, so subsections naturally override parents.
       const threshold = window.innerHeight * 0.3;
       let current = null;
       sections.forEach(s => {
