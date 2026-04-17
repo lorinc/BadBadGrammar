@@ -29,23 +29,31 @@ body {
   line-height: 1.625;
 }
 
-/* ── Site header ───────────────────────────────────────────────────────────── */
-.site-header {
-  padding: 2.5rem 0 1.5rem;
-  animation: fade-in 0.4s ease both;
+/* ── Layout: 2×2 grid ──────────────────────────────────────────────────────── */
+.page-body {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: auto 1fr;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  column-gap: 3rem;
 }
 
-.site-header img {
-  width: 120px;
-  height: auto;
-  display: block;
-}
-
-/* ── Article heading (h1 + subtitle live in the article column) ─────────────── */
-.article-heading {
-  padding: 2.5rem 0 2rem;
+/* cell 1: buttons, anchored to bottom of row */
+.left-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 2.5rem 0 1rem;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 2rem;
+}
+
+/* cell 2: title + subtitle */
+.article-heading {
+  padding: 2.5rem 0 1.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .article-heading h1 {
@@ -64,26 +72,12 @@ body {
   color: var(--muted-foreground);
 }
 
-/* ── Layout ────────────────────────────────────────────────────────────────── */
-.page-body {
-  display: flex;
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-  gap: 3rem;
-  align-items: flex-start;
-}
-
-.left-col {
-  width: 220px;
-  flex-shrink: 0;
-}
-
-/* ── TOC ───────────────────────────────────────────────────────────────────── */
+/* cell 3: sticky TOC */
 .toc {
   position: sticky;
   top: 2rem;
-  padding: 0;
+  align-self: start;
+  padding: 2rem 0 4rem;
 }
 
 .toc-title {
@@ -167,7 +161,6 @@ body {
 
 /* ── Article ───────────────────────────────────────────────────────────────── */
 article {
-  flex: 1;
   min-width: 0;
   max-width: 39rem;
   padding: 2rem 0 4rem;
@@ -297,17 +290,25 @@ article strong {
 /* ── Mobile TOC ────────────────────────────────────────────────────────────── */
 @media (max-width: 767px) {
   .page-body {
-    flex-direction: column;
-    gap: 0;
+    display: block;
     padding: 0;
   }
 
-  .left-col {
+  .left-top {
     display: none;
+  }
+
+  .toc {
+    display: none;
+  }
+
+  .article-heading {
+    padding: 1.5rem 1rem 1rem;
   }
 
   article {
     padding: 1.5rem 1rem 3rem;
+    max-width: none;
   }
 }
 
@@ -322,14 +323,8 @@ article li {
   font-size: 1rem;
 }
 
-/* ── Version toggle ────────────────────────────────────────────────────────── */
-.version-toggle {
-  padding-bottom: 0.875rem;
-  margin-bottom: 0.25rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.version-toggle a {
+/* ── Version buttons ───────────────────────────────────────────────────────── */
+.version-btn {
   font-family: 'DM Sans', system-ui, sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
@@ -344,28 +339,27 @@ article li {
   transition: background 0.15s, border-color 0.15s;
 }
 
-.version-toggle a:hover {
+.version-btn:hover {
   background: #2a7a3d;
   border-color: #2a7a3d;
 }
 
-.version-toggle a.chat-btn {
-  margin-top: 0.5rem;
+.version-btn.chat-btn {
   background: #e07428;
   border-color: #e07428;
 }
 
-.version-toggle a.chat-btn:hover {
+.version-btn.chat-btn:hover {
   background: #c4641f;
   border-color: #c4641f;
 }
 
-.version-toggle a.spanish-btn {
+.version-btn.spanish-btn {
   background: #9b2335;
   border-color: #9b2335;
 }
 
-.version-toggle a.spanish-btn:hover {
+.version-btn.spanish-btn:hover {
   background: #7a1b28;
   border-color: #7a1b28;
 }
